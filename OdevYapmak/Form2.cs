@@ -58,7 +58,7 @@ namespace OdevYapmak
                 }
                 foreach (var item in _ogrenciDersleri)
                 {
-                    if (item.Ogrenci==(Ogrenci)(cmbOgrenci.SelectedItem)&&item.Ders==(Ders)cmbDers.SelectedItem))
+                    if (item.Ogrenci==(Ogrenci)(cmbOgrenci.SelectedItem)&&item.Ders==(Ders)cmbDers.SelectedItem)
                     {
                         MessageBox.Show("seçtiğiniz ders öğrenciye zaten ekleniştir");
                         return;
